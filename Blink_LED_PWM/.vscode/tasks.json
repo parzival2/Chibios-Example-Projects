@@ -1,0 +1,19 @@
+{
+    "tasks": [
+        {
+            "label": "Build-Blink_LED_PWM",
+            "type": "process",
+            "group": {
+                "isDefault": true,
+                "kind": "build"
+            },
+            "command": "make"
+        },
+        {
+            "label": "Clean-Blink_LED_PWM",
+            "type": "shell",
+            "command": "make clean"
+        }
+    ],
+    "version": "2.0.0"
+}

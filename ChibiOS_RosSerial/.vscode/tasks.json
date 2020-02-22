@@ -1,0 +1,19 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build-ChibiOS_RosSerial",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "command": "make",
+            "type": "process"
+        },
+        {
+            "label": "Clean-ChibiOS_RosSerial",
+            "command": "make clean",
+            "type": "shell"
+        }
+    ]
+}

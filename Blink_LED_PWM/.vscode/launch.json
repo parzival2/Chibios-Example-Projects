@@ -1,0 +1,17 @@
+{
+    "configurations": [
+        {
+            "configFiles": [
+                "/home/kalyansreenivas/Compilers/openocd/scripts/board/stm32f4discovery.cfg"
+            ],
+            "showDevDebugOutput": false,
+            "name": "Blink_LED_PWM Debug",
+            "type": "cortex-debug",
+            "servertype": "openocd",
+            "cwd": "${workspaceRoot}",
+            "request": "launch",
+            "executable": "./build/Blink_LED_PWM.elf"
+        }
+    ],
+    "version": "0.2.0"
+}

@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="97">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df root="." name="0">
+      <df name=".dep">
+      </df>
+      <df name=".settings">
+      </df>
+      <df name=".vscode">
+        <df name="ipch">
+          <df name="f43ab461862db348">
+          </df>
+        </df>
+      </df>
+      <df name="build">
+        <df name="lst">
+        </df>
+        <df name="obj">
+        </df>
+      </df>
+      <df name="debug">
+        <df name="gdb">
+        </df>
+        <df name="msvc">
+        </df>
+      </df>
+      <df name="Eigen">
+        <df name="Eigen">
+        </df>
+        <df name="src">
+          <df name="Cholesky">
+            <in>LDLT.h</in>
+            <in>LLT.h</in>
+            <in>LLT_LAPACKE.h</in>
+          </df>
+          <df name="CholmodSupport">
+            <in>CholmodSupport.h</in>
+          </df>
+          <df name="Core">
+            <df name="arch">
+              <df name="AltiVec">
+                <in>Complex.h</in>
+                <in>MathFunctions.h</in>
+                <in>PacketMath.h</in>
+              </df>
+              <df name="AVX">
+                <in>Complex.h</in>
+                <in>MathFunctions.h</in>
+                <in>PacketMath.h</in>
+                <in>TypeCasting.h</in>
+              </df>
+              <df name="AVX512">
+                <in>MathFunctions.h</in>
+                <in>PacketMath.h</in>
+              </df>
+              <df name="CUDA">
+                <in>Complex.h</in>
+                <in>Half.h</in>
+                <in>MathFunctions.h</in>
+                <in>PacketMath.h</in>
+                <in>PacketMathHalf.h</in>
+                <in>TypeCasting.h</in>
+              </df>
+              <df name="Default">
+                <in>ConjHelper.h</in>
+                <in>Settings.h</in>
+              </df>
+              <df name="NEON">
+                <in>Complex.h</in>
+                <in>MathFunctions.h</in>
+                <in>PacketMath.h</in>
+              </df>
+              <df name="SSE">
+                <in>Complex.h</in>
+                <in>MathFunctions.h</in>
+                <in>PacketMath.h</in>
+                <in>TypeCasting.h</in>
+              </df>
+              <df name="ZVector">
+                <in>Complex.h</in>
+                <in>MathFunctions.h</in>
+                <in>PacketMath.h</in>
+              </df>
+            </df>
+            <df name="functors">
+              <in>AssignmentFunctors.h</in>
+              <in>BinaryFunctors.h</in>
+              <in>NullaryFunctors.h</in>
+              <in>StlFunctors.h</in>
+              <in>TernaryFunctors.h</in>
+              <in>UnaryFunctors.h</in>
+            </df>
+            <df name="products">
+              <in>GeneralBlockPanelKernel.h</in>
+              <in>GeneralMatrixMatrix.h</in>
+              <in>GeneralMatrixMatrixTriangular.h</in>
+              <in>GeneralMatrixMatrixTriangular_BLAS.h</in>
+              <in>GeneralMatrixMatrix_BLAS.h</in>
+              <in>GeneralMatrixVector.h</in>
+              <in>GeneralMatrixVector_BLAS.h</in>
+              <in>Parallelizer.h</in>
+              <in>SelfadjointMatrixMatrix.h</in>
+              <in>SelfadjointMatrixMatrix_BLAS.h</in>
+              <in>SelfadjointMatrixVector.h</in>
+              <in>SelfadjointMatrixVector_BLAS.h</in>
+              <in>SelfadjointProduct.h</in>
+              <in>SelfadjointRank2Update.h</in>
+              <in>TriangularMatrixMatrix.h</in>
+              <in>TriangularMatrixMatrix_BLAS.h</in>
+              <in>TriangularMatrixVector.h</in>
+              <in>TriangularMatrixVector_BLAS.h</in>
+              <in>TriangularSolverMatrix.h</in>
+              <in>TriangularSolverMatrix_BLAS.h</in>
+              <in>TriangularSolverVector.h</in>
+            </df>
+            <df name="util">
+              <in>BlasUtil.h</in>
+              <in>Constants.h</in>
+              <in>DisableStupidWarnings.h</in>
+              <in>ForwardDeclarations.h</in>
+              <in>MKL_support.h</in>
+              <in>Macros.h</in>
+              <in>Memory.h</in>
+              <in>Meta.h</in>
+              <in>NonMPL2.h</in>
+              <in>ReenableStupidWarnings.h</in>
+              <in>StaticAssert.h</in>
+              <in>XprHelper.h</in>
+            </df>
+            <in>Array.h</in>
+            <in>ArrayBase.h</in>
+            <in>ArrayWrapper.h</in>
+            <in>Assign.h</in>
+            <in>AssignEvaluator.h</in>
+            <in>Assign_MKL.h</in>
+            <in>BandMatrix.h</in>
+            <in>Block.h</in>
+            <in>BooleanRedux.h</in>
+            <in>CommaInitializer.h</in>
+            <in>ConditionEstimator.h</in>
+            <in>CoreEvaluators.h</in>
+            <in>CoreIterators.h</in>
+            <in>CwiseBinaryOp.h</in>
+            <in>CwiseNullaryOp.h</in>
+            <in>CwiseTernaryOp.h</in>
+            <in>CwiseUnaryOp.h</in>
+            <in>CwiseUnaryView.h</in>
+            <in>DenseBase.h</in>
+            <in>DenseCoeffsBase.h</in>
+            <in>DenseStorage.h</in>
+            <in>Diagonal.h</in>
+            <in>DiagonalMatrix.h</in>
+            <in>DiagonalProduct.h</in>
+            <in>Dot.h</in>
+            <in>EigenBase.h</in>
+            <in>ForceAlignedAccess.h</in>
+            <in>Fuzzy.h</in>
+            <in>GeneralProduct.h</in>
+            <in>GenericPacketMath.h</in>
+            <in>GlobalFunctions.h</in>
+            <in>IO.h</in>
+            <in>Inverse.h</in>
+            <in>Map.h</in>
+            <in>MapBase.h</in>
+            <in>MathFunctions.h</in>
+            <in>MathFunctionsImpl.h</in>
+            <in>Matrix.h</in>
+            <in>MatrixBase.h</in>
+            <in>NestByValue.h</in>
+            <in>NoAlias.h</in>
+            <in>NumTraits.h</in>
+            <in>PermutationMatrix.h</in>
+            <in>PlainObjectBase.h</in>
+            <in>Product.h</in>
+            <in>ProductEvaluators.h</in>
+            <in>Random.h</in>
+            <in>Redux.h</in>
+            <in>Ref.h</in>
+            <in>Replicate.h</in>
+            <in>ReturnByValue.h</in>
+            <in>Reverse.h</in>
+            <in>Select.h</in>
+            <in>SelfAdjointView.h</in>
+            <in>SelfCwiseBinaryOp.h</in>
+            <in>Solve.h</in>
+            <in>SolveTriangular.h</in>
+            <in>SolverBase.h</in>
+            <in>StableNorm.h</in>
+            <in>Stride.h</in>
+            <in>Swap.h</in>
+            <in>Transpose.h</in>
+            <in>Transpositions.h</in>
+            <in>TriangularMatrix.h</in>
+            <in>VectorBlock.h</in>
+            <in>VectorwiseOp.h</in>
+            <in>Visitor.h</in>
+          </df>
+          <df name="Eigenvalues">
+            <in>ComplexEigenSolver.h</in>
+            <in>ComplexSchur.h</in>
+            <in>ComplexSchur_LAPACKE.h</in>
+            <in>EigenSolver.h</in>
+            <in>GeneralizedEigenSolver.h</in>
+            <in>GeneralizedSelfAdjointEigenSolver.h</in>
+            <in>HessenbergDecomposition.h</in>
+            <in>MatrixBaseEigenvalues.h</in>
+            <in>RealQZ.h</in>
+            <in>RealSchur.h</in>
+            <in>RealSchur_LAPACKE.h</in>
+            <in>SelfAdjointEigenSolver.h</in>
+            <in>SelfAdjointEigenSolver_LAPACKE.h</in>
+            <in>Tridiagonalization.h</in>
+          </df>
+          <df name="Geometry">
+            <df name="arch">
+              <in>Geometry_SSE.h</in>
+            </df>
+            <in>AlignedBox.h</in>
+            <in>AngleAxis.h</in>
+            <in>EulerAngles.h</in>
+            <in>Homogeneous.h</in>
+            <in>Hyperplane.h</in>
+            <in>OrthoMethods.h</in>
+            <in>ParametrizedLine.h</in>
+            <in>Quaternion.h</in>
+            <in>Rotation2D.h</in>
+            <in>RotationBase.h</in>
+            <in>Scaling.h</in>
+            <in>Transform.h</in>
+            <in>Translation.h</in>
+            <in>Umeyama.h</in>
+          </df>
+          <df name="Householder">
+            <in>BlockHouseholder.h</in>
+            <in>Householder.h</in>
+            <in>HouseholderSequence.h</in>
+          </df>
+          <df name="IterativeLinearSolvers">
+            <in>BasicPreconditioners.h</in>
+            <in>BiCGSTAB.h</in>
+            <in>ConjugateGradient.h</in>
+            <in>IncompleteCholesky.h</in>
+            <in>IncompleteLUT.h</in>
+            <in>IterativeSolverBase.h</in>
+            <in>LeastSquareConjugateGradient.h</in>
+            <in>SolveWithGuess.h</in>
+          </df>
+          <df name="Jacobi">
+            <in>Jacobi.h</in>
+          </df>
+          <df name="LU">
+            <df name="arch">
+              <in>Inverse_SSE.h</in>
+            </df>
+            <in>Determinant.h</in>
+            <in>FullPivLU.h</in>
+            <in>InverseImpl.h</in>
+            <in>PartialPivLU.h</in>
+            <in>PartialPivLU_LAPACKE.h</in>
+          </df>
+          <df name="MetisSupport">
+            <in>MetisSupport.h</in>
+          </df>
+          <df name="misc">
+            <in>Image.h</in>
+            <in>Kernel.h</in>
+            <in>RealSvd2x2.h</in>
+            <in>blas.h</in>
+            <in>lapack.h</in>
+            <in>lapacke.h</in>
+            <in>lapacke_mangling.h</in>
+          </df>
+          <df name="OrderingMethods">
+            <in>Amd.h</in>
+            <in>Eigen_Colamd.h</in>
+            <in>Ordering.h</in>
+          </df>
+          <df name="PardisoSupport">
+            <in>PardisoSupport.h</in>
+          </df>
+          <df name="PaStiXSupport">
+            <in>PaStiXSupport.h</in>
+          </df>
+          <df name="plugins">
+            <in>ArrayCwiseBinaryOps.h</in>
+            <in>ArrayCwiseUnaryOps.h</in>
+            <in>BlockMethods.h</in>
+            <in>CommonCwiseBinaryOps.h</in>
+            <in>CommonCwiseUnaryOps.h</in>
+            <in>MatrixCwiseBinaryOps.h</in>
+            <in>MatrixCwiseUnaryOps.h</in>
+          </df>
+          <df name="QR">
+            <in>ColPivHouseholderQR.h</in>
+            <in>ColPivHouseholderQR_LAPACKE.h</in>
+            <in>CompleteOrthogonalDecomposition.h</in>
+            <in>FullPivHouseholderQR.h</in>
+            <in>HouseholderQR.h</in>
+            <in>HouseholderQR_LAPACKE.h</in>
+          </df>
+          <df name="SparseCholesky">
+            <in>SimplicialCholesky.h</in>
+            <in>SimplicialCholesky_impl.h</in>
+          </df>
+          <df name="SparseCore">
+            <in>AmbiVector.h</in>
+            <in>CompressedStorage.h</in>
+            <in>ConservativeSparseSparseProduct.h</in>
+            <in>MappedSparseMatrix.h</in>
+            <in>SparseAssign.h</in>
+            <in>SparseBlock.h</in>
+            <in>SparseColEtree.h</in>
+            <in>SparseCompressedBase.h</in>
+            <in>SparseCwiseBinaryOp.h</in>
+            <in>SparseCwiseUnaryOp.h</in>
+            <in>SparseDenseProduct.h</in>
+            <in>SparseDiagonalProduct.h</in>
+            <in>SparseDot.h</in>
+            <in>SparseFuzzy.h</in>
+            <in>SparseMap.h</in>
+            <in>SparseMatrix.h</in>
+            <in>SparseMatrixBase.h</in>
+            <in>SparsePermutation.h</in>
+            <in>SparseProduct.h</in>
+            <in>SparseRedux.h</in>
+            <in>SparseRef.h</in>
+            <in>SparseSelfAdjointView.h</in>
+            <in>SparseSolverBase.h</in>
+            <in>SparseSparseProductWithPruning.h</in>
+            <in>SparseTranspose.h</in>
+            <in>SparseTriangularView.h</in>
+            <in>SparseUtil.h</in>
+            <in>SparseVector.h</in>
+            <in>SparseView.h</in>
+            <in>TriangularSolver.h</in>
+          </df>
+          <df name="SparseLU">
+            <in>SparseLU.h</in>
+            <in>SparseLUImpl.h</in>
+            <in>SparseLU_Memory.h</in>
+            <in>SparseLU_Structs.h</in>
+            <in>SparseLU_SupernodalMatrix.h</in>
+            <in>SparseLU_Utils.h</in>
+            <in>SparseLU_column_bmod.h</in>
+            <in>SparseLU_column_dfs.h</in>
+            <in>SparseLU_copy_to_ucol.h</in>
+            <in>SparseLU_gemm_kernel.h</in>
+            <in>SparseLU_heap_relax_snode.h</in>
+            <in>SparseLU_kernel_bmod.h</in>
+            <in>SparseLU_panel_bmod.h</in>
+            <in>SparseLU_panel_dfs.h</in>
+            <in>SparseLU_pivotL.h</in>
+            <in>SparseLU_pruneL.h</in>
+            <in>SparseLU_relax_snode.h</in>
+          </df>
+          <df name="SparseQR">
+            <in>SparseQR.h</in>
+          </df>
+          <df name="SPQRSupport">
+            <in>SuiteSparseQRSupport.h</in>
+          </df>
+          <df name="StlSupport">
+            <in>StdDeque.h</in>
+            <in>StdList.h</in>
+            <in>StdVector.h</in>
+            <in>details.h</in>
+          </df>
+          <df name="SuperLUSupport">
+            <in>SuperLUSupport.h</in>
+          </df>
+          <df name="SVD">
+            <in>BDCSVD.h</in>
+            <in>JacobiSVD.h</in>
+            <in>JacobiSVD_LAPACKE.h</in>
+            <in>SVDBase.h</in>
+            <in>UpperBidiagonalization.h</in>
+          </df>
+          <df name="UmfPackSupport">
+            <in>UmfPackSupport.h</in>
+          </df>
+        </df>
+        <in>Cholesky</in>
+        <in>Core</in>
+        <in>Dense</in>
+        <in>Eigenvalues</in>
+        <in>Geometry</in>
+        <in>Householder</in>
+        <in>Jacobi</in>
+        <in>LU</in>
+        <in>QR</in>
+        <in>SVD</in>
+      </df>
+      <in>chconf.h</in>
+      <in>halconf.h</in>
+      <in>main.cpp</in>
+      <in>mcuconf.h</in>
+      <in>syscalls.c</in>
+      <in>usbcfg.c</in>
+      <in>usbcfg.h</in>
+    </df>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <platform>2</platform>
+      </toolsSet>
+      <compile>
+        <compiledirpicklist>
+          <compiledirpicklistitem>.</compiledirpicklistitem>
+          <compiledirpicklistitem>${AUTO_FOLDER}</compiledirpicklistitem>
+        </compiledirpicklist>
+        <compiledir>${AUTO_FOLDER}</compiledir>
+        <compilecommandpicklist>
+          <compilecommandpicklistitem>${MAKE} ${ITEM_NAME}.o</compilecommandpicklistitem>
+          <compilecommandpicklistitem>${AUTO_COMPILE}</compilecommandpicklistitem>
+        </compilecommandpicklist>
+        <compilecommand>${AUTO_COMPILE}</compilecommand>
+      </compile>
+      <dbx_gdbdebugger version="1">
+        <gdb_pathmaps>
+        </gdb_pathmaps>
+        <gdb_interceptlist>
+          <gdbinterceptoptions gdb_all="false" gdb_unhandled="true" gdb_unexpected="true"/>
+        </gdb_interceptlist>
+        <gdb_options>
+          <DebugOptions>
+          </DebugOptions>
+        </gdb_options>
+        <gdb_buildfirst gdb_buildfirst_overriden="false" gdb_buildfirst_old="false"/>
+      </dbx_gdbdebugger>
+      <nativedebugger version="1">
+        <engine>gdb</engine>
+      </nativedebugger>
+      <runprofile version="9">
+        <runcommandpicklist>
+          <runcommandpicklistitem>"${OUTPUT_PATH}"</runcommandpicklistitem>
+        </runcommandpicklist>
+        <runcommand>"${OUTPUT_PATH}"</runcommand>
+        <rundir>.</rundir>
+        <buildfirst>false</buildfirst>
+        <terminal-type>0</terminal-type>
+        <remove-instrumentation>0</remove-instrumentation>
+        <environment>
+        </environment>
+      </runprofile>
+    </conf>
+  </confs>
+</configurationDescriptor>

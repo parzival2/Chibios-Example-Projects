@@ -1,0 +1,19 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "command": "make",
+            "type": "process",
+            "group": {
+                "isDefault": true,
+                "kind": "build"
+            },
+            "label": "Build-MPU9250_C++"
+        },
+        {
+            "command": "make clean",
+            "type": "shell",
+            "label": "Clean-MPU9250_C++"
+        }
+    ]
+}

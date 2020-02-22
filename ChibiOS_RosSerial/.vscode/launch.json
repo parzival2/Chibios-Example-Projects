@@ -1,0 +1,17 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "cwd": "${workspaceRoot}",
+            "name": "ChibiOS_RosSerial Debug",
+            "request": "launch",
+            "configFiles": [
+                "/home/kalyansreenivas/Compilers/openocd\n/scripts/board/stm32f4discovery.cfg"
+            ],
+            "showDevDebugOutput": false,
+            "servertype": "openocd",
+            "type": "cortex-debug",
+            "executable": "./build/ChibiOS_RosSerial.elf"
+        }
+    ]
+}

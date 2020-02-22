@@ -1,0 +1,19 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "command": "make",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "label": "Build-Eigen_Matrix_Example",
+            "type": "process"
+        },
+        {
+            "command": "make clean",
+            "label": "Clean-Eigen_Matrix_Example",
+            "type": "shell"
+        }
+    ]
+}

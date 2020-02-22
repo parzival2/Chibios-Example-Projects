@@ -1,0 +1,19 @@
+{
+    "tasks": [
+        {
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "command": "make",
+            "type": "process",
+            "label": "Build-MutexPrint"
+        },
+        {
+            "command": "make clean",
+            "type": "shell",
+            "label": "Clean-MutexPrint"
+        }
+    ],
+    "version": "2.0.0"
+}

@@ -1,0 +1,79 @@
+/home/kalyansreenivas/Projects/chibios_practice_programs/RosSerial_MPU9250/
+/home/kalyansreenivas/Projects/chibios_practice_programs/RosSerial_MPU9250/datapackets/
+/home/kalyansreenivas/Projects/chibios_practice_programs/RosSerial_MPU9250/drivers/
+/home/kalyansreenivas/Projects/chibios_practice_programs/RosSerial_MPU9250/roslib/
+/home/kalyansreenivas/Projects/chibios_practice_programs/RosSerial_MPU9250/roslib/uuid_msgs/
+/home/kalyansreenivas/Projects/chibios_practice_programs/RosSerial_MPU9250/roslib/rospy_tutorials/
+/home/kalyansreenivas/Projects/chibios_practice_programs/RosSerial_MPU9250/roslib/nodelet/
+/home/kalyansreenivas/Projects/chibios_practice_programs/RosSerial_MPU9250/roslib/roscpp/
+/home/kalyansreenivas/Projects/chibios_practice_programs/RosSerial_MPU9250/roslib/actionlib/
+/home/kalyansreenivas/Projects/chibios_practice_programs/RosSerial_MPU9250/roslib/std_msgs/
+/home/kalyansreenivas/Projects/chibios_practice_programs/RosSerial_MPU9250/roslib/std_srvs/
+/home/kalyansreenivas/Projects/chibios_practice_programs/RosSerial_MPU9250/roslib/ros/
+/home/kalyansreenivas/Projects/chibios_practice_programs/RosSerial_MPU9250/roslib/control_msgs/
+/home/kalyansreenivas/Projects/chibios_practice_programs/RosSerial_MPU9250/roslib/tf2_msgs/
+/home/kalyansreenivas/Projects/chibios_practice_programs/RosSerial_MPU9250/roslib/laser_assembler/
+/home/kalyansreenivas/Projects/chibios_practice_programs/RosSerial_MPU9250/roslib/geometry_msgs/
+/home/kalyansreenivas/Projects/chibios_practice_programs/RosSerial_MPU9250/roslib/shape_msgs/
+/home/kalyansreenivas/Projects/chibios_practice_programs/RosSerial_MPU9250/roslib/rosserial_msgs/
+/home/kalyansreenivas/Projects/chibios_practice_programs/RosSerial_MPU9250/roslib/trajectory_msgs/
+/home/kalyansreenivas/Projects/chibios_practice_programs/RosSerial_MPU9250/roslib/geographic_msgs/
+/home/kalyansreenivas/Projects/chibios_practice_programs/RosSerial_MPU9250/roslib/topic_tools/
+/home/kalyansreenivas/Projects/chibios_practice_programs/RosSerial_MPU9250/roslib/controller_manager_msgs/
+/home/kalyansreenivas/Projects/chibios_practice_programs/RosSerial_MPU9250/roslib/sensor_msgs/
+/home/kalyansreenivas/Projects/chibios_practice_programs/RosSerial_MPU9250/roslib/turtle_actionlib/
+/home/kalyansreenivas/Projects/chibios_practice_programs/RosSerial_MPU9250/roslib/pcl_msgs/
+/home/kalyansreenivas/Projects/chibios_practice_programs/RosSerial_MPU9250/roslib/turtlesim/
+/home/kalyansreenivas/Projects/chibios_practice_programs/RosSerial_MPU9250/roslib/nav_msgs/
+/home/kalyansreenivas/Projects/chibios_practice_programs/RosSerial_MPU9250/roslib/roscpp_tutorials/
+/home/kalyansreenivas/Projects/chibios_practice_programs/RosSerial_MPU9250/roslib/bond/
+/home/kalyansreenivas/Projects/chibios_practice_programs/RosSerial_MPU9250/roslib/rosgraph_msgs/
+/home/kalyansreenivas/Projects/chibios_practice_programs/RosSerial_MPU9250/roslib/map_msgs/
+/home/kalyansreenivas/Projects/chibios_practice_programs/RosSerial_MPU9250/roslib/gazebo_msgs/
+/home/kalyansreenivas/Projects/chibios_practice_programs/RosSerial_MPU9250/roslib/control_toolbox/
+/home/kalyansreenivas/Projects/chibios_practice_programs/RosSerial_MPU9250/roslib/dynamic_reconfigure/
+/home/kalyansreenivas/Projects/chibios_practice_programs/RosSerial_MPU9250/roslib/actionlib_tutorials/
+/home/kalyansreenivas/Projects/chibios_practice_programs/RosSerial_MPU9250/roslib/stereo_msgs/
+/home/kalyansreenivas/Projects/chibios_practice_programs/RosSerial_MPU9250/roslib/robot_localization/
+/home/kalyansreenivas/Projects/chibios_practice_programs/RosSerial_MPU9250/roslib/visualization_msgs/
+/home/kalyansreenivas/Projects/chibios_practice_programs/RosSerial_MPU9250/roslib/tf/
+/home/kalyansreenivas/Projects/chibios_practice_programs/RosSerial_MPU9250/roslib/theora_image_transport/
+/home/kalyansreenivas/Projects/chibios_practice_programs/RosSerial_MPU9250/roslib/diagnostic_msgs/
+/home/kalyansreenivas/Projects/chibios_practice_programs/RosSerial_MPU9250/roslib/smach_msgs/
+/home/kalyansreenivas/Projects/chibios_practice_programs/RosSerial_MPU9250/roslib/polled_camera/
+/home/kalyansreenivas/Projects/chibios_practice_programs/RosSerial_MPU9250/roslib/actionlib_msgs/
+/home/kalyansreenivas/Softwares/ChibiStudio/chibios_stable-18.2.x/os/common/startup/ARMCMx/devices/STM32F4xx/
+/home/kalyansreenivas/Softwares/ChibiStudio/chibios_stable-18.2.x/os/hal/boards/ST_STM32F4_DISCOVERY/
+/home/kalyansreenivas/Softwares/ChibiStudio/chibios_stable-18.2.x/os/common/ext/ST/STM32F4xx/
+/home/kalyansreenivas/Softwares/ChibiStudio/chibios_stable-18.2.x/os/common/ext/ARM/CMSIS/Core/Include/
+/home/kalyansreenivas/Softwares/ChibiStudio/chibios_stable-18.2.x/os/hal/include/
+/home/kalyansreenivas/Softwares/ChibiStudio/chibios_stable-18.2.x/os/hal/osal/rt/
+/home/kalyansreenivas/Softwares/ChibiStudio/chibios_stable-18.2.x/os/rt/include/
+/home/kalyansreenivas/Softwares/ChibiStudio/chibios_stable-18.2.x/os/license/
+/home/kalyansreenivas/Softwares/ChibiStudio/chibios_stable-18.2.x/os/common/ports/ARMCMx/compilers/GCC/
+/home/kalyansreenivas/Softwares/ChibiStudio/chibios_stable-18.2.x/os/common/ports/ARMCMx/
+/home/kalyansreenivas/Softwares/ChibiStudio/chibios_stable-18.2.x/os/hal/ports/STM32/LLD/TIMv1/
+/home/kalyansreenivas/Softwares/ChibiStudio/chibios_stable-18.2.x/os/hal/ports/STM32/STM32F4xx/
+/home/kalyansreenivas/Softwares/ChibiStudio/chibios_stable-18.2.x/os/common/oslib/include/
+/home/kalyansreenivas/Softwares/ChibiStudio/chibios_stable-18.2.x/os/hal/ports/common/ARMCMx/
+/home/kalyansreenivas/Softwares/ChibiStudio/chibios_stable-18.2.x/os/hal/ports/STM32/LLD/DMAv2/
+/home/kalyansreenivas/Softwares/ChibiStudio/chibios_stable-18.2.x/os/hal/ports/STM32/LLD/GPIOv2/
+/home/kalyansreenivas/Softwares/ChibiStudio/chibios_stable-18.2.x/os/hal/ports/STM32/LLD/SPIv1/
+/home/kalyansreenivas/Softwares/ChibiStudio/chibios_stable-18.2.x/os/hal/ports/STM32/LLD/OTGv1/
+/home/kalyansreenivas/Softwares/ChibiStudio/chibios_stable-18.2.x/os/hal/lib/streams/
+/home/kalyansreenivas/Softwares/ChibiStudio/chibios_stable-18.2.x/os/various/cpp_wrappers/
+/ros/
+/acceldata.hpp datapackets/
+//
+/mpu9250.hpp datapackets/
+/gyrodata.hpp drivers/
+/acceldata.hpp datapackets/gyrodata.hpp roslib/
+/ros/node_handle.h roslib/std_msgs/
+/ros/msg.h roslib/ros/time.h roslib/ros/
+/rosserial_msgs/TopicInfo.h roslib/rosserial_msgs/
+/rosserial_msgs/RequestParam.h roslib/ros/
+/ros/node_handle.h roslib/ros/
+/ros/service_server.h roslib/ros/
+/ChibiOSHardware.h roslib/sensor_msgs/
+/std_msgs/Header.h roslib/geometry_msgs/
+/geometry_msgs/

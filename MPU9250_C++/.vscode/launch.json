@@ -1,0 +1,17 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "executable": "./build/MPU9250_C++.elf",
+            "configFiles": [
+                "/home/kalyansreenivas/Compilers/openocd/scripts/board/stm32f4discovery.cfg"
+            ],
+            "servertype": "openocd",
+            "request": "launch",
+            "cwd": "${workspaceRoot}",
+            "name": "MPU9250_C++ Debug",
+            "type": "cortex-debug",
+            "showDevDebugOutput": false
+        }
+    ]
+}

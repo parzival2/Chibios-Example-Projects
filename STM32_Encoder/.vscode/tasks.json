@@ -1,0 +1,19 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "command": "make",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "type": "process",
+            "label": "Build-STM32_Encoder"
+        },
+        {
+            "command": "make clean",
+            "type": "shell",
+            "label": "Clean-STM32_Encoder"
+        }
+    ]
+}

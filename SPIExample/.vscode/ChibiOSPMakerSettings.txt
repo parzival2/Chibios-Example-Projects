@@ -1,0 +1,2 @@
+/home/kalyansreenivas/ChibiStudio/chibios_stable-18.2.x
+/home/kalyansreenivas/Compilers/openocd

@@ -1,0 +1,17 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "SPIExample Debug",
+            "executable": "./build/SPIExample.elf",
+            "configFiles": [
+                "/home/kalyansreenivas/Compilers/openocd/scripts/board/stm32f4discovery.cfg"
+            ],
+            "cwd": "${workspaceRoot}",
+            "type": "cortex-debug",
+            "request": "launch",
+            "showDevDebugOutput": false,
+            "servertype": "openocd"
+        }
+    ]
+}

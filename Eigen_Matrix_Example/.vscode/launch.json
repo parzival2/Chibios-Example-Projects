@@ -1,0 +1,17 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "cwd": "${workspaceRoot}",
+            "executable": "./build/Eigen_Matrix_Example.elf",
+            "configFiles": [
+                "/home/kalyansreenivas/Compilers/openocd/scripts/board/stm32f4discovery.cfg"
+            ],
+            "showDevDebugOutput": false,
+            "name": "Eigen_Matrix_Example Debug",
+            "servertype": "openocd",
+            "request": "launch",
+            "type": "cortex-debug"
+        }
+    ]
+}

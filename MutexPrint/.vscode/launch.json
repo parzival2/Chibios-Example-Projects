@@ -1,0 +1,17 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "configFiles": [
+                "/home/kalyansreenivas/Compilers/openocd/scripts/board/stm32f4discovery.cfg"
+            ],
+            "executable": "./build/MutexPrint.elf",
+            "cwd": "${workspaceRoot}",
+            "name": "MutexPrint Debug",
+            "servertype": "openocd",
+            "type": "cortex-debug",
+            "request": "launch",
+            "showDevDebugOutput": false
+        }
+    ]
+}

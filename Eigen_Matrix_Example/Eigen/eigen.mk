@@ -1,0 +1,3 @@
+EIGENINC = Eigen/
+
+ALLINC += $(EIGENINC)

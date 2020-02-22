@@ -1,0 +1,17 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "STM32_Encoder Debug",
+            "executable": "./build/STM32_Encoder.elf",
+            "type": "cortex-debug",
+            "showDevDebugOutput": false,
+            "servertype": "openocd",
+            "request": "launch",
+            "cwd": "${workspaceRoot}",
+            "configFiles": [
+                "/home/kalyansreenivas/Compilers/openocd/scripts/board/stm32f4discovery.cfg"
+            ]
+        }
+    ]
+}

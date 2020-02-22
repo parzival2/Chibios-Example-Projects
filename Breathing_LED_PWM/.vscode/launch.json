@@ -1,0 +1,17 @@
+{
+    "configurations": [
+        {
+            "servertype": "openocd",
+            "type": "cortex-debug",
+            "request": "launch",
+            "executable": "./build/Breathing_LED_PWM.elf",
+            "name": "Breathing_LED_PWM Debug",
+            "cwd": "${workspaceRoot}",
+            "showDevDebugOutput": false,
+            "configFiles": [
+                "/home/kalyansreenivas/Compilers/openocd/scripts/board/stm32f4discovery.cfg"
+            ]
+        }
+    ],
+    "version": "0.2.0"
+}

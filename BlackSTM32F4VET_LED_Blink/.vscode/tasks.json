@@ -1,0 +1,19 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "command": "make",
+            "type": "process",
+            "label": "Build-BlackSTM32F4VET_LED",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "command": "make clean",
+            "type": "shell",
+            "label": "Clean-BlackSTM32F4VET_LED"
+        }
+    ]
+}

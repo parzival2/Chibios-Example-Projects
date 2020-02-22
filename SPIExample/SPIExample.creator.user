@@ -1,0 +1,339 @@
+<?xml version='1.0' encoding='utf-8'?>
+<qtcreator>
+ <data>
+  <variable>EnvironmentId</variable>
+  <value type="QByteArray">{ff7d2c41-c66f-46c5-bf64-0946689732c9}</value>
+ </data>
+ <data>
+  <variable>ProjectExplorer.Project.ActiveTarget</variable>
+  <value type="int">0</value>
+ </data>
+ <data>
+  <variable>ProjectExplorer.Project.EditorSettings</variable>
+  <valuemap type="QVariantMap">
+   <value key="EditorConfiguration.AutoIndent" type="bool">true</value>
+   <value key="EditorConfiguration.AutoSpacesForTabs" type="bool">false</value>
+   <value key="EditorConfiguration.CamelCaseNavigation" type="bool">true</value>
+   <valuemap key="EditorConfiguration.CodeStyle.0" type="QVariantMap">
+    <value key="language" type="QString">Cpp</value>
+    <valuemap key="value" type="QVariantMap">
+     <value key="CurrentPreferences" type="QByteArray">CppGlobal</value>
+    </valuemap>
+   </valuemap>
+   <valuemap key="EditorConfiguration.CodeStyle.1" type="QVariantMap">
+    <value key="language" type="QString">QmlJS</value>
+    <valuemap key="value" type="QVariantMap">
+     <value key="CurrentPreferences" type="QByteArray">QmlJSGlobal</value>
+    </valuemap>
+   </valuemap>
+   <value key="EditorConfiguration.CodeStyle.Count" type="int">2</value>
+   <value key="EditorConfiguration.Codec" type="QByteArray">UTF-8</value>
+   <value key="EditorConfiguration.ConstrainTooltips" type="bool">false</value>
+   <value key="EditorConfiguration.IndentSize" type="int">4</value>
+   <value key="EditorConfiguration.KeyboardTooltips" type="bool">false</value>
+   <value key="EditorConfiguration.MarginColumn" type="int">80</value>
+   <value key="EditorConfiguration.MouseHiding" type="bool">true</value>
+   <value key="EditorConfiguration.MouseNavigation" type="bool">true</value>
+   <value key="EditorConfiguration.PaddingMode" type="int">1</value>
+   <value key="EditorConfiguration.ScrollWheelZooming" type="bool">true</value>
+   <value key="EditorConfiguration.ShowMargin" type="bool">false</value>
+   <value key="EditorConfiguration.SmartBackspaceBehavior" type="int">0</value>
+   <value key="EditorConfiguration.SmartSelectionChanging" type="bool">true</value>
+   <value key="EditorConfiguration.SpacesForTabs" type="bool">true</value>
+   <value key="EditorConfiguration.TabKeyBehavior" type="int">0</value>
+   <value key="EditorConfiguration.TabSize" type="int">8</value>
+   <value key="EditorConfiguration.UseGlobal" type="bool">true</value>
+   <value key="EditorConfiguration.Utf8BomBehavior" type="int">1</value>
+   <value key="EditorConfiguration.addFinalNewLine" type="bool">true</value>
+   <value key="EditorConfiguration.cleanIndentation" type="bool">true</value>
+   <value key="EditorConfiguration.cleanWhitespace" type="bool">true</value>
+   <value key="EditorConfiguration.inEntireDocument" type="bool">false</value>
+  </valuemap>
+ </data>
+ <data>
+  <variable>ProjectExplorer.Project.PluginSettings</variable>
+  <valuemap type="QVariantMap">
+   <valuelist key="ClangCodeModel.CustomCommandLineKey" type="QVariantList" />
+   <value key="ClangCodeModel.UseGlobalConfig" type="bool">true</value>
+  </valuemap>
+ </data>
+ <data>
+  <variable>ProjectExplorer.Project.Target.0</variable>
+  <valuemap type="QVariantMap">
+   <value key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName" type="QString">BareMetal-STM32</value>
+   <value key="ProjectExplorer.ProjectConfiguration.DisplayName" type="QString">BareMetal-STM32</value>
+   <value key="ProjectExplorer.ProjectConfiguration.Id" type="QString">{89765bc0-abe4-4e4c-80ad-7abcb1658f2c}</value>
+   <value key="ProjectExplorer.Target.ActiveBuildConfiguration" type="int">0</value>
+   <value key="ProjectExplorer.Target.ActiveDeployConfiguration" type="int">-1</value>
+   <value key="ProjectExplorer.Target.ActiveRunConfiguration" type="int">1</value>
+   <valuemap key="ProjectExplorer.Target.BuildConfiguration.0" type="QVariantMap">
+    <value key="ProjectExplorer.BuildConfiguration.BuildDirectory" type="QString">/home/kalyansreenivas/Projects/chibios_practice_programs/SPIExample</value>
+    <valuemap key="ProjectExplorer.BuildConfiguration.BuildStepList.0" type="QVariantMap">
+     <valuemap key="ProjectExplorer.BuildStepList.Step.0" type="QVariantMap">
+      <valuelist key="GenericProjectManager.GenericMakeStep.BuildTargets" type="QVariantList">
+       <value type="QString">all</value>
+      </valuelist>
+      <value key="GenericProjectManager.GenericMakeStep.Clean" type="bool">false</value>
+      <value key="GenericProjectManager.GenericMakeStep.MakeArguments" type="QString" />
+      <value key="GenericProjectManager.GenericMakeStep.MakeCommand" type="QString" />
+      <value key="GenericProjectManager.GenericMakeStep.OverrideMakeflags" type="bool">false</value>
+      <value key="ProjectExplorer.BuildStep.Enabled" type="bool">true</value>
+      <value key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName" type="QString">Make</value>
+      <value key="ProjectExplorer.ProjectConfiguration.DisplayName" type="QString" />
+      <value key="ProjectExplorer.ProjectConfiguration.Id" type="QString">GenericProjectManager.GenericMakeStep</value>
+     </valuemap>
+     <valuemap key="ProjectExplorer.BuildStepList.Step.1" type="QVariantMap">
+      <value key="ProjectExplorer.BuildStep.Enabled" type="bool">true</value>
+      <value key="ProjectExplorer.ProcessStep.Arguments" type="QString">DepFolderParser.py</value>
+      <value key="ProjectExplorer.ProcessStep.Command" type="QString">python</value>
+      <value key="ProjectExplorer.ProcessStep.WorkingDirectory" type="QString">%{buildDir}</value>
+      <value key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName" type="QString">Custom Process Step</value>
+      <value key="ProjectExplorer.ProjectConfiguration.DisplayName" type="QString" />
+      <value key="ProjectExplorer.ProjectConfiguration.Id" type="QString">ProjectExplorer.ProcessStep</value>
+     </valuemap>
+     <value key="ProjectExplorer.BuildStepList.StepsCount" type="int">2</value>
+     <value key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName" type="QString">Build</value>
+     <value key="ProjectExplorer.ProjectConfiguration.DisplayName" type="QString" />
+     <value key="ProjectExplorer.ProjectConfiguration.Id" type="QString">ProjectExplorer.BuildSteps.Build</value>
+    </valuemap>
+    <valuemap key="ProjectExplorer.BuildConfiguration.BuildStepList.1" type="QVariantMap">
+     <valuemap key="ProjectExplorer.BuildStepList.Step.0" type="QVariantMap">
+      <valuelist key="GenericProjectManager.GenericMakeStep.BuildTargets" type="QVariantList">
+       <value type="QString">clean</value>
+      </valuelist>
+      <value key="GenericProjectManager.GenericMakeStep.Clean" type="bool">false</value>
+      <value key="GenericProjectManager.GenericMakeStep.MakeArguments" type="QString" />
+      <value key="GenericProjectManager.GenericMakeStep.MakeCommand" type="QString" />
+      <value key="GenericProjectManager.GenericMakeStep.OverrideMakeflags" type="bool">false</value>
+      <value key="ProjectExplorer.BuildStep.Enabled" type="bool">true</value>
+      <value key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName" type="QString">Make</value>
+      <value key="ProjectExplorer.ProjectConfiguration.DisplayName" type="QString" />
+      <value key="ProjectExplorer.ProjectConfiguration.Id" type="QString">GenericProjectManager.GenericMakeStep</value>
+     </valuemap>
+     <value key="ProjectExplorer.BuildStepList.StepsCount" type="int">1</value>
+     <value key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName" type="QString">Clean</value>
+     <value key="ProjectExplorer.ProjectConfiguration.DisplayName" type="QString" />
+     <value key="ProjectExplorer.ProjectConfiguration.Id" type="QString">ProjectExplorer.BuildSteps.Clean</value>
+    </valuemap>
+    <value key="ProjectExplorer.BuildConfiguration.BuildStepListCount" type="int">2</value>
+    <value key="ProjectExplorer.BuildConfiguration.ClearSystemEnvironment" type="bool">false</value>
+    <valuelist key="ProjectExplorer.BuildConfiguration.UserEnvironmentChanges" type="QVariantList" />
+    <value key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName" type="QString">Default</value>
+    <value key="ProjectExplorer.ProjectConfiguration.DisplayName" type="QString">Default</value>
+    <value key="ProjectExplorer.ProjectConfiguration.Id" type="QString">GenericProjectManager.GenericBuildConfiguration</value>
+   </valuemap>
+   <value key="ProjectExplorer.Target.BuildConfigurationCount" type="int">1</value>
+   <value key="ProjectExplorer.Target.DeployConfigurationCount" type="int">0</value>
+   <valuemap key="ProjectExplorer.Target.PluginSettings" type="QVariantMap" />
+   <valuemap key="ProjectExplorer.Target.RunConfiguration.0" type="QVariantMap">
+    <value key="Analyzer.Perf.CallgraphMode" type="QString">dwarf</value>
+    <valuelist key="Analyzer.Perf.Events" type="QVariantList">
+     <value type="QString">cpu-cycles</value>
+    </valuelist>
+    <valuelist key="Analyzer.Perf.ExtraArguments" type="QVariantList" />
+    <value key="Analyzer.Perf.Frequency" type="int">250</value>
+    <value key="Analyzer.Perf.SampleMode" type="QString">-F</value>
+    <value key="Analyzer.Perf.Settings.UseGlobalSettings" type="bool">true</value>
+    <value key="Analyzer.Perf.StackSize" type="int">4096</value>
+    <value key="Analyzer.QmlProfiler.AggregateTraces" type="bool">false</value>
+    <value key="Analyzer.QmlProfiler.FlushEnabled" type="bool">false</value>
+    <value key="Analyzer.QmlProfiler.FlushInterval" type="uint">1000</value>
+    <value key="Analyzer.QmlProfiler.LastTraceFile" type="QString" />
+    <value key="Analyzer.QmlProfiler.Settings.UseGlobalSettings" type="bool">true</value>
+    <valuelist key="Analyzer.Valgrind.AddedSuppressionFiles" type="QVariantList" />
+    <value key="Analyzer.Valgrind.Callgrind.CollectBusEvents" type="bool">false</value>
+    <value key="Analyzer.Valgrind.Callgrind.CollectSystime" type="bool">false</value>
+    <value key="Analyzer.Valgrind.Callgrind.EnableBranchSim" type="bool">false</value>
+    <value key="Analyzer.Valgrind.Callgrind.EnableCacheSim" type="bool">false</value>
+    <value key="Analyzer.Valgrind.Callgrind.EnableEventToolTips" type="bool">true</value>
+    <value key="Analyzer.Valgrind.Callgrind.MinimumCostRatio" type="double">0.01</value>
+    <value key="Analyzer.Valgrind.Callgrind.VisualisationMinimumCostRatio" type="double">10</value>
+    <value key="Analyzer.Valgrind.FilterExternalIssues" type="bool">true</value>
+    <value key="Analyzer.Valgrind.KCachegrindExecutable" type="QString">kcachegrind</value>
+    <value key="Analyzer.Valgrind.LeakCheckOnFinish" type="int">1</value>
+    <value key="Analyzer.Valgrind.NumCallers" type="int">25</value>
+    <valuelist key="Analyzer.Valgrind.RemovedSuppressionFiles" type="QVariantList" />
+    <value key="Analyzer.Valgrind.SelfModifyingCodeDetection" type="int">1</value>
+    <value key="Analyzer.Valgrind.Settings.UseGlobalSettings" type="bool">true</value>
+    <value key="Analyzer.Valgrind.ShowReachable" type="bool">false</value>
+    <value key="Analyzer.Valgrind.TrackOrigins" type="bool">true</value>
+    <value key="Analyzer.Valgrind.ValgrindExecutable" type="QString">valgrind</value>
+    <valuelist key="Analyzer.Valgrind.VisibleErrorKinds" type="QVariantList">
+     <value type="int">0</value>
+     <value type="int">1</value>
+     <value type="int">2</value>
+     <value type="int">3</value>
+     <value type="int">4</value>
+     <value type="int">5</value>
+     <value type="int">6</value>
+     <value type="int">7</value>
+     <value type="int">8</value>
+     <value type="int">9</value>
+     <value type="int">10</value>
+     <value type="int">11</value>
+     <value type="int">12</value>
+     <value type="int">13</value>
+     <value type="int">14</value>
+    </valuelist>
+    <value key="PE.EnvironmentAspect.Base" type="int">2</value>
+    <valuelist key="PE.EnvironmentAspect.Changes" type="QVariantList" />
+    <value key="ProjectExplorer.CustomExecutableRunConfiguration.Executable" type="QString">/home/kalyansreenivas/Compilers/openocd/bin/openocd</value>
+    <value key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName" type="QString">Custom Executable</value>
+    <value key="ProjectExplorer.ProjectConfiguration.DisplayName" type="QString" />
+    <value key="ProjectExplorer.ProjectConfiguration.Id" type="QString">ProjectExplorer.CustomExecutableRunConfiguration</value>
+    <value key="RunConfiguration.Arguments" type="QString">/home/kalyansreenivas/Compilers/openocd/scripts/board/stm32f4discovery.cfg</value>
+    <value key="RunConfiguration.QmlDebugServerPort" type="uint">3768</value>
+    <value key="RunConfiguration.UseCppDebugger" type="bool">false</value>
+    <value key="RunConfiguration.UseCppDebuggerAuto" type="bool">true</value>
+    <value key="RunConfiguration.UseMultiProcess" type="bool">false</value>
+    <value key="RunConfiguration.UseQmlDebugger" type="bool">false</value>
+    <value key="RunConfiguration.UseQmlDebuggerAuto" type="bool">true</value>
+    <value key="RunConfiguration.WorkingDirectory" type="QString" />
+    <value key="RunConfiguration.WorkingDirectory.default" type="QString" />
+   </valuemap>
+   <valuemap key="ProjectExplorer.Target.RunConfiguration.1" type="QVariantMap">
+    <value key="Analyzer.Perf.CallgraphMode" type="QString">dwarf</value>
+    <valuelist key="Analyzer.Perf.Events" type="QVariantList">
+     <value type="QString">cpu-cycles</value>
+    </valuelist>
+    <valuelist key="Analyzer.Perf.ExtraArguments" type="QVariantList" />
+    <value key="Analyzer.Perf.Frequency" type="int">250</value>
+    <value key="Analyzer.Perf.SampleMode" type="QString">-F</value>
+    <value key="Analyzer.Perf.Settings.UseGlobalSettings" type="bool">true</value>
+    <value key="Analyzer.Perf.StackSize" type="int">4096</value>
+    <value key="Analyzer.QmlProfiler.AggregateTraces" type="bool">false</value>
+    <value key="Analyzer.QmlProfiler.FlushEnabled" type="bool">false</value>
+    <value key="Analyzer.QmlProfiler.FlushInterval" type="uint">1000</value>
+    <value key="Analyzer.QmlProfiler.LastTraceFile" type="QString" />
+    <value key="Analyzer.QmlProfiler.Settings.UseGlobalSettings" type="bool">true</value>
+    <valuelist key="Analyzer.Valgrind.AddedSuppressionFiles" type="QVariantList" />
+    <value key="Analyzer.Valgrind.Callgrind.CollectBusEvents" type="bool">false</value>
+    <value key="Analyzer.Valgrind.Callgrind.CollectSystime" type="bool">false</value>
+    <value key="Analyzer.Valgrind.Callgrind.EnableBranchSim" type="bool">false</value>
+    <value key="Analyzer.Valgrind.Callgrind.EnableCacheSim" type="bool">false</value>
+    <value key="Analyzer.Valgrind.Callgrind.EnableEventToolTips" type="bool">true</value>
+    <value key="Analyzer.Valgrind.Callgrind.MinimumCostRatio" type="double">0.01</value>
+    <value key="Analyzer.Valgrind.Callgrind.VisualisationMinimumCostRatio" type="double">10</value>
+    <value key="Analyzer.Valgrind.FilterExternalIssues" type="bool">true</value>
+    <value key="Analyzer.Valgrind.KCachegrindExecutable" type="QString">kcachegrind</value>
+    <value key="Analyzer.Valgrind.LeakCheckOnFinish" type="int">1</value>
+    <value key="Analyzer.Valgrind.NumCallers" type="int">25</value>
+    <valuelist key="Analyzer.Valgrind.RemovedSuppressionFiles" type="QVariantList" />
+    <value key="Analyzer.Valgrind.SelfModifyingCodeDetection" type="int">1</value>
+    <value key="Analyzer.Valgrind.Settings.UseGlobalSettings" type="bool">true</value>
+    <value key="Analyzer.Valgrind.ShowReachable" type="bool">false</value>
+    <value key="Analyzer.Valgrind.TrackOrigins" type="bool">true</value>
+    <value key="Analyzer.Valgrind.ValgrindExecutable" type="QString">valgrind</value>
+    <valuelist key="Analyzer.Valgrind.VisibleErrorKinds" type="QVariantList">
+     <value type="int">0</value>
+     <value type="int">1</value>
+     <value type="int">2</value>
+     <value type="int">3</value>
+     <value type="int">4</value>
+     <value type="int">5</value>
+     <value type="int">6</value>
+     <value type="int">7</value>
+     <value type="int">8</value>
+     <value type="int">9</value>
+     <value type="int">10</value>
+     <value type="int">11</value>
+     <value type="int">12</value>
+     <value type="int">13</value>
+     <value type="int">14</value>
+    </valuelist>
+    <value key="BareMetal.CustomRunConfig.Executable" type="QString">/home/kalyansreenivas/Projects/chibios_practice_programs/SPIExample/build/SPIExample.elf</value>
+    <value key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName" type="QString">Custom Executable (on STM32F4)</value>
+    <value key="ProjectExplorer.ProjectConfiguration.DisplayName" type="QString" />
+    <value key="ProjectExplorer.ProjectConfiguration.Id" type="QString">BareMetal</value>
+    <value key="RunConfiguration.Arguments" type="QString">/home/kalyansreenivas/Compilers/openocd/scripts/board/stm32f4discovery.cfg</value>
+    <value key="RunConfiguration.QmlDebugServerPort" type="uint">3768</value>
+    <value key="RunConfiguration.UseCppDebugger" type="bool">false</value>
+    <value key="RunConfiguration.UseCppDebuggerAuto" type="bool">true</value>
+    <value key="RunConfiguration.UseMultiProcess" type="bool">false</value>
+    <value key="RunConfiguration.UseQmlDebugger" type="bool">false</value>
+    <value key="RunConfiguration.UseQmlDebuggerAuto" type="bool">true</value>
+    <value key="RunConfiguration.WorkingDirectory" type="QString" />
+    <value key="RunConfiguration.WorkingDirectory.default" type="QString" />
+   </valuemap>
+   <valuemap key="ProjectExplorer.Target.RunConfiguration.2" type="QVariantMap">
+    <value key="Analyzer.Perf.CallgraphMode" type="QString">dwarf</value>
+    <valuelist key="Analyzer.Perf.Events" type="QVariantList">
+     <value type="QString">cpu-cycles</value>
+    </valuelist>
+    <valuelist key="Analyzer.Perf.ExtraArguments" type="QVariantList" />
+    <value key="Analyzer.Perf.Frequency" type="int">250</value>
+    <value key="Analyzer.Perf.SampleMode" type="QString">-F</value>
+    <value key="Analyzer.Perf.Settings.UseGlobalSettings" type="bool">true</value>
+    <value key="Analyzer.Perf.StackSize" type="int">4096</value>
+    <value key="Analyzer.QmlProfiler.AggregateTraces" type="bool">false</value>
+    <value key="Analyzer.QmlProfiler.FlushEnabled" type="bool">false</value>
+    <value key="Analyzer.QmlProfiler.FlushInterval" type="uint">1000</value>
+    <value key="Analyzer.QmlProfiler.LastTraceFile" type="QString" />
+    <value key="Analyzer.QmlProfiler.Settings.UseGlobalSettings" type="bool">true</value>
+    <valuelist key="Analyzer.Valgrind.AddedSuppressionFiles" type="QVariantList" />
+    <value key="Analyzer.Valgrind.Callgrind.CollectBusEvents" type="bool">false</value>
+    <value key="Analyzer.Valgrind.Callgrind.CollectSystime" type="bool">false</value>
+    <value key="Analyzer.Valgrind.Callgrind.EnableBranchSim" type="bool">false</value>
+    <value key="Analyzer.Valgrind.Callgrind.EnableCacheSim" type="bool">false</value>
+    <value key="Analyzer.Valgrind.Callgrind.EnableEventToolTips" type="bool">true</value>
+    <value key="Analyzer.Valgrind.Callgrind.MinimumCostRatio" type="double">0.01</value>
+    <value key="Analyzer.Valgrind.Callgrind.VisualisationMinimumCostRatio" type="double">10</value>
+    <value key="Analyzer.Valgrind.FilterExternalIssues" type="bool">true</value>
+    <value key="Analyzer.Valgrind.KCachegrindExecutable" type="QString">kcachegrind</value>
+    <value key="Analyzer.Valgrind.LeakCheckOnFinish" type="int">1</value>
+    <value key="Analyzer.Valgrind.NumCallers" type="int">25</value>
+    <valuelist key="Analyzer.Valgrind.RemovedSuppressionFiles" type="QVariantList" />
+    <value key="Analyzer.Valgrind.SelfModifyingCodeDetection" type="int">1</value>
+    <value key="Analyzer.Valgrind.Settings.UseGlobalSettings" type="bool">true</value>
+    <value key="Analyzer.Valgrind.ShowReachable" type="bool">false</value>
+    <value key="Analyzer.Valgrind.TrackOrigins" type="bool">true</value>
+    <value key="Analyzer.Valgrind.ValgrindExecutable" type="QString">valgrind</value>
+    <valuelist key="Analyzer.Valgrind.VisibleErrorKinds" type="QVariantList">
+     <value type="int">0</value>
+     <value type="int">1</value>
+     <value type="int">2</value>
+     <value type="int">3</value>
+     <value type="int">4</value>
+     <value type="int">5</value>
+     <value type="int">6</value>
+     <value type="int">7</value>
+     <value type="int">8</value>
+     <value type="int">9</value>
+     <value type="int">10</value>
+     <value type="int">11</value>
+     <value type="int">12</value>
+     <value type="int">13</value>
+     <value type="int">14</value>
+    </valuelist>
+    <value key="PE.EnvironmentAspect.Base" type="int">2</value>
+    <valuelist key="PE.EnvironmentAspect.Changes" type="QVariantList" />
+    <value key="ProjectExplorer.CustomExecutableRunConfiguration.Executable" type="QString">/home/kalyansreenivas/Compilers/openocd/bin/openocd</value>
+    <value key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName" type="QString">Custom Executable</value>
+    <value key="ProjectExplorer.ProjectConfiguration.DisplayName" type="QString">OpenOCD</value>
+    <value key="ProjectExplorer.ProjectConfiguration.Id" type="QString">ProjectExplorer.CustomExecutableRunConfiguration</value>
+    <value key="RunConfiguration.Arguments" type="QString">/home/kalyansreenivas/Compilers/openocd/scripts/board/stm32f4discovery.cfg</value>
+    <value key="RunConfiguration.QmlDebugServerPort" type="uint">3768</value>
+    <value key="RunConfiguration.UseCppDebugger" type="bool">false</value>
+    <value key="RunConfiguration.UseCppDebuggerAuto" type="bool">true</value>
+    <value key="RunConfiguration.UseMultiProcess" type="bool">false</value>
+    <value key="RunConfiguration.UseQmlDebugger" type="bool">false</value>
+    <value key="RunConfiguration.UseQmlDebuggerAuto" type="bool">true</value>
+    <value key="RunConfiguration.WorkingDirectory" type="QString" />
+    <value key="RunConfiguration.WorkingDirectory.default" type="QString" />
+   </valuemap>
+   <value key="ProjectExplorer.Target.RunConfigurationCount" type="int">3</value>
+  </valuemap>
+ </data>
+ <data>
+  <variable>ProjectExplorer.Project.TargetCount</variable>
+  <value type="int">1</value>
+ </data>
+ <data>
+  <variable>ProjectExplorer.Project.Updater.FileVersion</variable>
+  <value type="int">21</value>
+ </data>
+ <data>
+  <variable>Version</variable>
+  <value type="int">21</value>
+ </data>
+</qtcreator>

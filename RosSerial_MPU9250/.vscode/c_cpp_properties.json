@@ -1,0 +1,24 @@
+{
+    "version": 4,
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "compilerPath": "/usr/bin/gcc",
+            "defines": [],
+            "browse": {
+                "databaseFilename": "",
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "${workspaceFolder}",
+                    "/home/kalyansreenivas/Softwares/ChibiStudio/chibios_stable-18.2.x"
+                ]
+            },
+            "cppStandard": "c++17",
+            "cStandard": "c11",
+            "intelliSenseMode": "clang-x64"
+        }
+    ]
+}

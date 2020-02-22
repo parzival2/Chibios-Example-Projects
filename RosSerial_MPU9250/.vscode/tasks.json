@@ -1,0 +1,19 @@
+{
+    "tasks": [
+        {
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "command": "make",
+            "type": "process",
+            "label": "Build-RosSerial_MPU9250"
+        },
+        {
+            "command": "make clean",
+            "type": "shell",
+            "label": "Clean-RosSerial_MPU9250"
+        }
+    ],
+    "version": "2.0.0"
+}

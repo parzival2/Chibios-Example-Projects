@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "ch.h": "c",
+        "hal.h": "c",
+        "hal_pal.h": "c",
+        "chbsem.h": "c",
+        "chtypes.h": "c"
+    },
+    "C_Cpp.errorSquiggles": "EnabledIfIncludesResolve"
+}

@@ -1,0 +1,42 @@
+{
+    "version": 4,
+    "configurations": [
+        {
+            "cStandard": "c11",
+            "compilerPath": "/usr/bin/gcc",
+            "defines": [],
+            "name": "Linux",
+            "intelliSenseMode": "clang-x64",
+            "cppStandard": "c++17",
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "${workspaceFolder}"
+                ],
+                "databaseFilename": ""
+            },
+            "includePath": [
+                "${default}",
+                "/home/kalyansreenivas/Softwares/ChibiStudio/chibios_stable-18.2.x/os/rt/include/",
+                "/home/kalyansreenivas/Softwares/ChibiStudio/chibios_stable-18.2.x/os/hal/boards/ST_STM32F4_DISCOVERY/",
+                "/home/kalyansreenivas/Softwares/ChibiStudio/chibios_stable-18.2.x/os/hal/include/",
+                "/home/kalyansreenivas/Softwares/ChibiStudio/chibios_stable-18.2.x/os/hal/lib/streams/",
+                "/home/kalyansreenivas/Softwares/ChibiStudio/chibios_stable-18.2.x/os/hal/lib/peripherals/sensors/",
+                "/home/kalyansreenivas/Softwares/ChibiStudio/chibios_stable-18.2.x/os/hal/lib/peripherals/flash/",
+                "/home/kalyansreenivas/Softwares/ChibiStudio/chibios_stable-18.2.x/os/hal/lib/peripherals/displays/",
+                "/home/kalyansreenivas/Softwares/ChibiStudio/chibios_stable-18.2.x/os/hal/lib/fallback/I2C/",
+                "/home/kalyansreenivas/Softwares/ChibiStudio/chibios_stable-18.2.x/os/hal/lib/complex/mfs/",
+                "/home/kalyansreenivas/Softwares/ChibiStudio/chibios_stable-18.2.x/os/hal/ports/STM32/STM32F4xx/",
+                "/home/kalyansreenivas/Softwares/ChibiStudio/chibios_stable-18.2.x/os/hal/ports/STM32/LLD/",
+                "/home/kalyansreenivas/Softwares/ChibiStudio/chibios_stable-18.2.x/os/hal/ports/common/ARMCMx/",
+                "/home/kalyansreenivas/Softwares/ChibiStudio/chibios_stable-18.2.x/os/hal/src/",
+                "/home/kalyansreenivas/Softwares/ChibiStudio/chibios_stable-18.2.x/os/various/",
+                "/home/kalyansreenivas/Softwares/ChibiStudio/chibios_stable-18.2.x/os/license/",
+                "/home/kalyansreenivas/Softwares/ChibiStudio/chibios_stable-18.2.x/os/common/oslib/",
+                "/home/kalyansreenivas/Softwares/ChibiStudio/chibios_stable-18.2.x/os/common/startup/ARMCMx/compilers/GCC/",
+                "/home/kalyansreenivas/Softwares/ChibiStudio/chibios_stable-18.2.x/os/common/startup/ARMCMx/devices/STM32F4xx/",
+                "/home/kalyansreenivas/Softwares/ChibiStudio/chibios_stable-18.2.x/os/hal/osal/rt/"
+            ]
+        }
+    ]
+}

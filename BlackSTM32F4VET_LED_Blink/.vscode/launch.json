@@ -1,0 +1,17 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "servertype": "openocd",
+            "showDevDebugOutput": false,
+            "name": "BlackSTM32F4VET_LED Debug",
+            "request": "launch",
+            "cwd": "${workspaceRoot}",
+            "configFiles": [
+                "/home/kalyansreenivas/Compilers/openocd\n/scripts/board/stm32f4discovery.cfg"
+            ],
+            "type": "cortex-debug",
+            "executable": "./build/BlackSTM32F4VET_LED.elf"
+        }
+    ]
+}

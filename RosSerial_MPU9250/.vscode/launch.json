@@ -1,0 +1,17 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "RosSerial_MPU9250 Debug",
+            "servertype": "openocd",
+            "executable": "./build/RosSerial_MPU9250.elf",
+            "configFiles": [
+                "/home/kalyansreenivas/Compilers/openocd\n/scripts/board/stm32f4discovery.cfg"
+            ],
+            "cwd": "${workspaceRoot}",
+            "request": "launch",
+            "type": "cortex-debug",
+            "showDevDebugOutput": false
+        }
+    ]
+}
