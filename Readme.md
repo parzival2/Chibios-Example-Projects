@@ -1,7 +1,9 @@
 ## Chibios Example Projects
-This repository holds all the programs that I have tried when I am learning how to program Microcontroller boards using Chibios. Most of the programs work using `STM32F4-Discovery` board but they can also be ported to other boards, but just make sure that the pin assignments are correct. 
+This repository holds all the programs that I have tried when I am learning how to program Microcontroller boards using Chibios. Think of it like a  
+Most of the programs work using `STM32F4-Discovery` board but they can also be ported to other boards, but just make sure that the pin assignments are correct. 
 Here is a short explanation of all the folders in this repository along with their function.
 
+Here is an overview of all the working examples. Some examples that are in the different repository will be linked with their path.
 
 | Folder name | Function |
 |---|---|
@@ -32,5 +34,6 @@ Here is a small over view of what is working on `Black STM32F4VET` board.
 
  Made using [stackedit](https://stackedit.io/app#)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MjQ1NTMxNTVdfQ==
+eyJoaXN0b3J5IjpbLTIwNjA4NDg3NjYsLTE5MjQ1NTMxNTVdfQ
+==
 -->
