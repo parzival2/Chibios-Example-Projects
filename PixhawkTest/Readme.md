@@ -27,4 +27,7 @@ As with any driver, the config of the driver is important. Another important poi
 ```
 Alternative pin configurations can be found in STM32 manual. 
 
-This example just reads `WHO_AM_I` register and if the MPU9250 is properly connected, it should reply with `0x71`. 
+This example just reads `WHO_AM_I` register and if the MPU9250 is properly connected, it should reply with `0x71`.# 
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMTY5NTUwNzkzMV19
+-->
