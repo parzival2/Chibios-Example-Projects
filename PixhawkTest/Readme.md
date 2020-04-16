@@ -1,7 +1,7 @@
 ## Pixhawk Test
 This program simply blinks the Amber-LED on [Pixhawk2.4.8](https://ardupilot.org/copter/docs/common-pixhawk-overview.html) board. It is important to note that the board is not programmed via ST-Link debugger interface but using the USB port as the controller board already has a boot loader interface and accessing the debug pins is a bit of [hassle](https://ardupilot.org/dev/docs/debugging-with-gdb-on-stm32.html). This is just a demonstration to prove that, that board can also be programmed as well and I was planning to use the same board for more complicated projects like [pixhawk-ekf](https://github.com/parzival2/pixhawk_ekf), where a custom implementation of EKF will be implemented for learning. 
 ## Flashing
-The files for flashing has been copied from [Ardupilot](https://github.com/ArduPilot/ardupilot) and [PX4](https://github.com/PX4) projects, specifically [ApjMaker](https://github.com/ArduPilot/ardupilot/blob/master/Tools/scripts/make_apj.py) and [enter link description here](https://github.com/PX4/Firmware/blob/master/Tools/px_uploader.py). After building the firmware, use the 
+The files for flashing has been copied from [Ardupilot](https://github.com/ArduPilot/ardupilot) and [PX4](https://github.com/PX4) projects, specifically [ApjMaker](https://github.com/ArduPilot/ardupilot/blob/master/Tools/scripts/make_apj.py) and [Firmware uploader](https://github.com/PX4/Firmware/blob/master/Tools/px_uploader.py). After building the firmware, use the files apjmaker.py and uploader.py to create an APJ and upload it on to the board. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4MDM4MDE5NiwtMTg2NjcxNTc4Nl19
+eyJoaXN0b3J5IjpbMTg2NDM4MTg1MSwtMTg2NjcxNTc4Nl19
 -->
