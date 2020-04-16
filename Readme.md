@@ -1,5 +1,7 @@
+## Chibios Example Projects
 This repository holds all the programs that I have tried when I am learning how to program Microcontroller boards using Chibios. Most of the programs work using `STM32F4-Discovery` board but they can also be ported to other boards, but just make sure that the pin assignments are correct. 
 Here is a short explanation of all the folders in this repository along with their function.
+
 
 | Folder name | Function |
 |---|---|
@@ -16,8 +18,10 @@ Here is a short explanation of all the folders in this repository along with the
 | RosSerial_MPU9250 | Uses `rosserial` to send IMU data over `USB_CDC` connection.|
 | BlackSTM32F4VET_LED_Blink | Uses Black STM32F4VET6 board and blinks its on board LEDs. The board definition files were also created. |
 
+
 ### Black STM32F4 port : What is working?
 Here is a small over view of what is working on `Black STM32F4VET` board.
+
 
  - [x] Blink LEDs
  - [ ] USB communication
@@ -25,4 +29,8 @@ Here is a small over view of what is working on `Black STM32F4VET` board.
  - [ ] I2C
  - [ ] SD Card Reading and Writing
 
+
  Made using [stackedit](https://stackedit.io/app#)
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbNzg0NDEwMDFdfQ==
+-->
