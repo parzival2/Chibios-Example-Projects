@@ -24,6 +24,11 @@
 event_source_t ledEventSource;
 
 ///
+/// Event source in C++
+///
+chibios_rt::EventSource usbPrintSource;
+
+///
 /// Define event flags
 ///
 #define LED3 (eventflags_t)0
@@ -34,6 +39,25 @@ event_source_t ledEventSource;
  * @brief chp Stream for printing variables on USB
  */
 BaseSequentialStream* chp = (BaseSequentialStream*)(&SDU1);
+
+class UsbPrintThread : public chibios_rt::BaseStaticThread<256>
+{
+  protected:
+    void main(void) override
+    {
+        setName("UsbPrintThread");
+        // Define an event listener
+        chibios_rt::EventListener usbEventListener;
+        // Register for the event
+        usbPrintSource.registerMask(&usbEventListener, EVENT_MASK(0));
+        while(true)
+        {
+            waitAnyEvent(EVENT_MASK(0));
+            chEvtGetAndClearFlags(&usbEventListener.ev_listener);
+            chprintf(chp, "Event has been cleared \n");
+        }
+    }
+};
 
 class BlinkerThread : public chibios_rt::BaseStaticThread<512>
 {
@@ -53,6 +77,7 @@ class BlinkerThread : public chibios_rt::BaseStaticThread<512>
             flags = chEvtGetAndClearFlags(&ledEventListener);
             if(flags == LED3)
             {
+                usbPrintSource.broadcastFlags(0);
                 palToggleLine(LINE_LED3);
             }
             else if(flags == LED4)
@@ -112,6 +137,12 @@ int main(void)
     ///
     BlinkerThread blinkerThread;
     blinkerThread.start(NORMALPRIO + 1);
+
+    ///
+    /// Start usb print thread
+    ///
+    UsbPrintThread usbPrintThread;
+    usbPrintThread.start(NORMALPRIO + 1);
     while(1)
     {
         chEvtBroadcastFlags(&ledEventSource, LED3);

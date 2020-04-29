@@ -23,13 +23,19 @@ static const char SWITCHCONTROLLER[] = "controller_manager_msgs/SwitchController
       _stop_controllers_type * stop_controllers;
       typedef int32_t _strictness_type;
       _strictness_type strictness;
+      typedef bool _start_asap_type;
+      _start_asap_type start_asap;
+      typedef double _timeout_type;
+      _timeout_type timeout;
       enum { BEST_EFFORT = 1 };
       enum { STRICT = 2 };
 
     SwitchControllerRequest():
       start_controllers_length(0), start_controllers(NULL),
       stop_controllers_length(0), stop_controllers(NULL),
-      strictness(0)
+      strictness(0),
+      start_asap(0),
+      timeout(0)
     {
     }
 
@@ -70,6 +76,27 @@ static const char SWITCHCONTROLLER[] = "controller_manager_msgs/SwitchController
       *(outbuffer + offset + 2) = (u_strictness.base >> (8 * 2)) & 0xFF;
       *(outbuffer + offset + 3) = (u_strictness.base >> (8 * 3)) & 0xFF;
       offset += sizeof(this->strictness);
+      union {
+        bool real;
+        uint8_t base;
+      } u_start_asap;
+      u_start_asap.real = this->start_asap;
+      *(outbuffer + offset + 0) = (u_start_asap.base >> (8 * 0)) & 0xFF;
+      offset += sizeof(this->start_asap);
+      union {
+        double real;
+        uint64_t base;
+      } u_timeout;
+      u_timeout.real = this->timeout;
+      *(outbuffer + offset + 0) = (u_timeout.base >> (8 * 0)) & 0xFF;
+      *(outbuffer + offset + 1) = (u_timeout.base >> (8 * 1)) & 0xFF;
+      *(outbuffer + offset + 2) = (u_timeout.base >> (8 * 2)) & 0xFF;
+      *(outbuffer + offset + 3) = (u_timeout.base >> (8 * 3)) & 0xFF;
+      *(outbuffer + offset + 4) = (u_timeout.base >> (8 * 4)) & 0xFF;
+      *(outbuffer + offset + 5) = (u_timeout.base >> (8 * 5)) & 0xFF;
+      *(outbuffer + offset + 6) = (u_timeout.base >> (8 * 6)) & 0xFF;
+      *(outbuffer + offset + 7) = (u_timeout.base >> (8 * 7)) & 0xFF;
+      offset += sizeof(this->timeout);
       return offset;
     }
 
@@ -127,11 +154,34 @@ static const char SWITCHCONTROLLER[] = "controller_manager_msgs/SwitchController
       u_strictness.base |= ((uint32_t) (*(inbuffer + offset + 3))) << (8 * 3);
       this->strictness = u_strictness.real;
       offset += sizeof(this->strictness);
+      union {
+        bool real;
+        uint8_t base;
+      } u_start_asap;
+      u_start_asap.base = 0;
+      u_start_asap.base |= ((uint8_t) (*(inbuffer + offset + 0))) << (8 * 0);
+      this->start_asap = u_start_asap.real;
+      offset += sizeof(this->start_asap);
+      union {
+        double real;
+        uint64_t base;
+      } u_timeout;
+      u_timeout.base = 0;
+      u_timeout.base |= ((uint64_t) (*(inbuffer + offset + 0))) << (8 * 0);
+      u_timeout.base |= ((uint64_t) (*(inbuffer + offset + 1))) << (8 * 1);
+      u_timeout.base |= ((uint64_t) (*(inbuffer + offset + 2))) << (8 * 2);
+      u_timeout.base |= ((uint64_t) (*(inbuffer + offset + 3))) << (8 * 3);
+      u_timeout.base |= ((uint64_t) (*(inbuffer + offset + 4))) << (8 * 4);
+      u_timeout.base |= ((uint64_t) (*(inbuffer + offset + 5))) << (8 * 5);
+      u_timeout.base |= ((uint64_t) (*(inbuffer + offset + 6))) << (8 * 6);
+      u_timeout.base |= ((uint64_t) (*(inbuffer + offset + 7))) << (8 * 7);
+      this->timeout = u_timeout.real;
+      offset += sizeof(this->timeout);
      return offset;
     }
 
     const char * getType(){ return SWITCHCONTROLLER; };
-    const char * getMD5(){ return "434da54adc434a5af5743ed711fd6ba1"; };
+    const char * getMD5(){ return "36d99a977432b71d4bf16ce5847949d7"; };
 
   };
 
