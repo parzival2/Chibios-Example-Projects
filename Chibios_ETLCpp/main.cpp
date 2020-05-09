@@ -116,7 +116,7 @@ int main(void)
         for(size_t i = 0; i < 5; i++)
         {
             messageData.number = 10 + i;
-            MessageData* dataPtr = &messageData;
+            MessageData* dataPtr = &messageVector[i];
             msg_t result = messageMailBox.post(dataPtr, TIME_IMMEDIATE);
         }
         chThdSleepMilliseconds(500);

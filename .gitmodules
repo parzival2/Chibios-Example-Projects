@@ -1,3 +1,6 @@
 [submodule "Chibios_18.2.x"]
 	path = Chibios_18.2.x
 	url = ../ChibiOS.git
+[submodule "Libraries/etlcpp"]
+	path = Libraries/etlcpp
+	url = ../../ETLCPP/etl.git
