@@ -45,4 +45,9 @@ if(BUILD_CHIBIOS_SERVO_CONTROL)
     add_subdirectory(Servo_Control)
 endif()
 
+### ETL Cpp
+option(BUILD_CHIBIOS_ETL_CPP "Build etl cpp project" TRUE)
+if(BUILD_CHIBIOS_ETL_CPP)
+    add_subdirectory(Chibios_ETLCpp)
+endif()
 

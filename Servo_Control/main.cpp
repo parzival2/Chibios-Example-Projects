@@ -49,7 +49,7 @@ class RosServoControlThread : public chibios_rt::BaseStaticThread<SERVO_ROS_THRE
         mRosNodeHandle.advertise(mPwmCalculatedValuePublisher);
         mRosNodeHandle.subscribe(mJoySubscriber);
         mRosNodeHandle.initNode();
-        pwmEnableChannel(&PWMD4, 0, PWM_PERCENTAGE_TO_WIDTH(&PWMD4, 500));
+        // pwmEnableChannel(&PWMD4, 0, PWM_PERCENTAGE_TO_WIDTH(&PWMD4, 500));
         while(TRUE)
         {
             mRosNodeHandle.spinOnce();
@@ -69,10 +69,10 @@ class RosServoControlThread : public chibios_rt::BaseStaticThread<SERVO_ROS_THRE
 
   private:
     // Constants
-    static constexpr int32_t POS_OUTPUT_START = 750;
-    static constexpr int32_t POS_OUTPUT_END = 500;
+    static constexpr int32_t POS_OUTPUT_START = 750; // 751;
+    static constexpr int32_t POS_OUTPUT_END = 330; // 1300;
     static constexpr int32_t NEG_OUTPUT_START = 751;
-    static constexpr int32_t NEG_OUTPUT_END = 1000;
+    static constexpr int32_t NEG_OUTPUT_END = 1300;
     /**
      * @brief mRosNodeHandle The ros nodehandle that will be used to communicate with ros.
      */
